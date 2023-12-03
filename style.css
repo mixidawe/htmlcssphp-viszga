@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin:auto;
+}
+.fejlec{
+    position: relative;
+    width: 1600px;
+    margin: auto;
+    right: 200px;
+    bottom: 15px;
+}
+.fejlec img{
+    width: 100%;
+    height: 350px;
+}
+.container{
+    width: 100%;
+}
+header h1{
+    padding: 10px;
+    margin-left: 10px;
+}
+header p{
+    padding: 10px;
+    margin-left: 10px;
+}
+.szemelyesadatok{
+    width: 100%;
+    height: auto;
+    border: solid 1px rgb(173, 170, 170);
+    border-radius: 5px;
+}
+.szemelyesadatok h1{
+    padding: 10px;
+    margin-left: 10px;
+}
+hr{
+    width: 98%;
+    margin: auto;
+}
+.szemelyesadatok p{
+    padding: 10px;
+    margin-left: 10px;
+}
+.szemelyesadatok h1{
+    padding: 10px;
+    margin-left: 10px;
+}
+.szemelyesadatok h2{
+    padding: 10px;
+    margin-left: 10px;
+}
+.szemelyesadatok h3{
+    padding: 10px;
+    margin-left: 10px;
+}
+.neve{
+    width: 50%;
+}
+input{
+    position: relative;
+    margin-left: 15px;
+    border: solid 1px rgb(173, 170, 170);
+    border-radius: 5px;
+    padding: 5px;
+}
+#lastname{
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    height: 30px;
+    left: 602px;
+    margin-left: 5px;
+    top: -60px;
+}
+#firstname{
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    height: 30px;
+    left: 600px;
+    margin-left: 5px;
+    top: -60px;
+}
+#telefon{
+    display: inline-block;
+    position: absolute;
+    width: 49%;
+    height: 30px;
+    left: 590px;
+}
+.container h1{
+    color: rgb(68, 120, 227);
+    text-align: left;
+    margin-left: 5px;
+}
+.filefeltoltes{
+    display: inline-block;
+    position:relative;
+    border:dashed 3px rgb(173, 170, 170);
+    border-radius: 10px;
+    width: 598px;
+    height: 150px;
+    margin-left: 595px;
+    top: -150px;
+}
+.filefeltoltes h2{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    color: rgb(68, 120, 227);
+}
+.filefeltoltes p{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    color: rgb(51, 155, 221);
+}
+.container span{
+    display: inline-flex;
+    position: relative;
+    width: 75px;
+    height: 30px;
+    border: solid 1px rgb(51, 155, 221);
+    border-radius: 5px;
+    text-align: center;
+}
+.valasz{
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.penzadatok{
+    border: solid 1px rgb(173, 170, 170);
+    border-radius: 5px;
+}
+.vagyonok{
+    border: solid 1px rgb(173, 170, 170);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 598px;
+    height: 50px;
+    margin-left: 595px;
+    margin-bottom: 10px;
+}
+.vagyonok p, h3, h1{
+    padding: 10px;
+    margin-left: 10px;
+}
+.tervek{
+    width: 1200px;
+    height: auto;
+    border: solid 1px rgb(173, 170, 170);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.tervek h3{
+    margin: 5px;
+    padding: 15px;
+    padding-left: 20px;
+    text-align: justify;
+}
+.tervek p{
+    padding: 10px;
+    margin: 10px;
+}
+.tervek b{
+    left: 10px;
+    padding: 10px;
+    margin-left: -600px;
+}
+.tervek h3{
+    margin: 10px;
+    padding: 0;
+    margin-left: 598px;
+}
+#vol{
+    width: 598px;
+    left: 580px;
+    margin-top: 10px;
+}
+.submit{
+    margin-left: 0;
+    background-color: #648ce3;
+    color:#fff;
+    border:none;
+    border-radius: 3px;
+    font-size: 23px;
+    text-align: center;
+    margin-top:40px;
+    padding: 10px;
+    width: 450px;
+}
